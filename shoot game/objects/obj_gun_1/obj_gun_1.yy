@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
+  "%Name":"obj_gun_1",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_gun_1",
   "overriddenProperties":[],
   "parent":{
     "name":"物体",
     "path":"folders/物体.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_gun",
+    "path":"objects/obj_gun/obj_gun.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_gun_1",
+    "path":"sprites/sp_gun_1/sp_gun_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

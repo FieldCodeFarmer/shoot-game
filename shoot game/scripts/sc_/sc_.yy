@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"sc_",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_",
+  "parent":{
+    "name":"脚本",
+    "path":"folders/脚本.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

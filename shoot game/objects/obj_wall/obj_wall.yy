@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_wall",
+  "eventList":[],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"物体",
@@ -29,8 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"sp_wall",
+    "path":"sprites/sp_wall/sp_wall.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
