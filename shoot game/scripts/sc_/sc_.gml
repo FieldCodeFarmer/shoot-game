@@ -1,5 +1,6 @@
 function s_harmful_init()
 {
+		//初始化时间
 	harmful=
 	{
 		time: 60,
@@ -9,6 +10,7 @@ function s_harmful_init()
 
 function s_harmful_run()
 {
+		//伤害变色
 	if(harmful.time<harmful.time_end)
 	{
 		harmful.time++
@@ -22,6 +24,7 @@ function s_harmful_run()
 
 function s_harmful_set()
 {
+		//受伤无敌帧
 	if(harmful.time>=harmful.time_end)
 	{
 		harmful.time=0
