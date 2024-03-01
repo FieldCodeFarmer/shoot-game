@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-s_gun_init(45)
+s_gun_init(45,obj_bullet_1)
 
 

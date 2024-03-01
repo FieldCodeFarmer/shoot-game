@@ -1,15 +1,15 @@
 if(keyboard_check(ord("A")))
 {
-	x-=2
+	x-=spd
 }if(keyboard_check(ord("D")))
 {
-	x+=2
+	x+=spd
 }if(keyboard_check(ord("W")))
 {
-	y-=2
+	y-=spd
 }if(keyboard_check(ord("S")))
 {
-	y+=2
+	y+=spd
 }
 
 if(mouse_check_button(mb_left))gun. s_gun_shoot()
