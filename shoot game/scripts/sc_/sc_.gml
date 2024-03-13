@@ -30,3 +30,14 @@ function s_harmful_set()
 		harmful.time=0
 	}
 }
+
+
+	//查询存在
+function ds_list_exists(f_list,f_value,f_length=ds_list_size(f_list))
+{
+	for(var pl=0;pl<f_length;pl++)
+	{
+		if(f_list[|pl]==f_value)return pl
+	}
+	return -1
+}
