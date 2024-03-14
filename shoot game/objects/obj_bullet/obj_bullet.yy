@@ -9,8 +9,8 @@
   "name":"obj_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"物体",
-    "path":"folders/物体.yy",
+    "name":"weapon",
+    "path":"folders/物体/weapon.yy",
   },
   "parentObjectId":null,
   "persistent":false,

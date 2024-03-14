@@ -7,4 +7,8 @@ gun=instance_create_depth(x,y,depth-1,obj_gun_2)
 gun.obj=obj_player	//碰撞对象
 */
 	//受伤初始化
-s_harmful_init()
+var v_func=function()
+{
+	part_particles_create( gs.ps,x,y,0,1)
+}
+s_harmful_init(,v_func)

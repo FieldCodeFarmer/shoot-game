@@ -1,5 +1,8 @@
-function s_harmful_init()
+function s_harmful_init(f_life=3,func=function(){})
 {
+	
+	life=f_life
+	func_destroy=func
 		//初始化时间
 	harmful=
 	{
@@ -28,6 +31,12 @@ function s_harmful_set()
 	if(harmful.time>=harmful.time_end)
 	{
 		harmful.time=0
+		life--
+		if(!life)
+		{
+			func_destroy()
+			instance_destroy()
+		}
 	}
 }
 

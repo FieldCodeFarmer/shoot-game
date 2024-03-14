@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_1",
-  "eventList":[],
+  "%Name":"ob_system",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_bullet_1",
+  "name":"ob_system",
   "overriddenProperties":[],
   "parent":{
-    "name":"weapon",
-    "path":"folders/物体/weapon.yy",
+    "name":"物体",
+    "path":"folders/物体.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bullet",
-    "path":"objects/obj_bullet/obj_bullet.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sp_bullet1",
-    "path":"sprites/sp_bullet1/sp_bullet1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
