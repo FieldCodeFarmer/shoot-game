@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ob_system",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dialog",
+  "eventList":[],
   "managed":true,
-  "name":"ob_system",
+  "name":"obj_dialog",
   "overriddenProperties":[],
   "parent":{
     "name":"system",

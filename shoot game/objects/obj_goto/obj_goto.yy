@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ob_system",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_goto",
+  "eventList":[],
   "managed":true,
-  "name":"ob_system",
+  "name":"obj_goto",
   "overriddenProperties":[],
   "parent":{
     "name":"system",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_wall",
+    "path":"sprites/sp_wall/sp_wall.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
